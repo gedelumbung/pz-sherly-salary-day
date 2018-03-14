@@ -8,5 +8,5 @@
 - The result will inject into html element which has id "page-wrapper"
 
 
-# Contributtor
+# Contributor
 - Wayan Jimmy ([@wayanjimmy](https://github.com/wayanjimmy))
