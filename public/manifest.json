@@ -1,0 +1,18 @@
+{
+  "short_name": "PZ Sherly - Salary Day",
+  "name": "PZ Sherly - Salary Day",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "PZ Sherly - Salary Day"
+  },
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["/static/css/main.css"],
+      "js": ["/static/js/main.js"]
+    }
+  ]
+}
